@@ -1,0 +1,6 @@
+@BookmyNoteAPI_HostAddress = http://localhost:5171
+
+GET {{BookmyNoteAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
