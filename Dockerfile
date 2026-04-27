@@ -11,4 +11,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 ENV ASPNETCORE_URLS=http://0.0.0.0:10000
-ENTRYPOINT ["dotnet", "BookmyNoteAPI.dll"]
+ENTRYPOINT ["dotnet", "BookmyNoteAPI.dll"]	

@@ -1,5 +1,2 @@
-**/bin/
-**/obj/
-**/publish/
-**/.vs/
-**/*.user
+bin/
+obj/
